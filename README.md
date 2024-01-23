@@ -12,27 +12,27 @@ go run ./
 ## Usage
 ### `/api/msg`
 ### GET
-```json
+```
 example.com/api/msg
 ```
 ### POST
 ```json
 {
-	"username": "",
-	"msg": ""
+  "username": "",
+  "msg": ""
 }
 ```
 ### DELETE
 ```json
 {
-	"id": "",
+  "id": "",
 }
 ```
 ### PATCH
 ```json
 {
-	"id": "",
-	"msg": ""
+  "id": "",
+  "msg": ""
 }
 ```
 
