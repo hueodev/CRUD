@@ -9,5 +9,32 @@ To get started, run the following command:
 go run ./
 ```
 
+## Usage
+### `/api/msg`
+### GET
+```json
+example.com/api/msg
+```
+### POST
+```json
+{
+	"username": "",
+	"msg": ""
+}
+```
+### DELETE
+```json
+{
+	"id": "",
+}
+```
+### PATCH
+```json
+{
+	"id": "",
+	"msg": ""
+}
+```
+
 ## Code
 All code is distributed under the [MIT license](LICENSE).  
